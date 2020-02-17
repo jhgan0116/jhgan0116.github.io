@@ -13,9 +13,9 @@
       <p class="mb-0">
         © {{ 'now' | date: "%Y" }}
         <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
-        {% if site.data.license.statment %}
+        {% if site.data.license.verbose_statment %}
         <span data-toggle="tooltip" data-placement="top"
-          title="{{ site.data.license.statment }}">Some rights reserved</span>.
+          title="{{ site.data.license.verbose_statment }}">Some rights reserved</span>.
         {% endif %}
       </p>
     </div>
